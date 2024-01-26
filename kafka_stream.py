@@ -2,7 +2,7 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-default_args = { 
+default_args = {
     'owner' : 'BvA',
     'start_date' : datetime(2023, 4, 12, 10, 00)
 }
